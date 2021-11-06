@@ -1,0 +1,20 @@
+﻿<Window x:Class="LT2_OEF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LT2_OEF2"
+        mc:Ignorable="d"
+        Title="LT2_OEF2" Height="221" Width="231" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="lblHoogte" Content="Hoogte:" HorizontalAlignment="Left" Margin="35,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBasis" Content="Basis:" HorizontalAlignment="Left" Margin="49,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbHoogte" HorizontalAlignment="Left" Margin="88,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txbBasis" HorizontalAlignment="Left" Margin="88,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblOppervlakte" Content="Oppervlakte:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblResultaat" Content="" HorizontalAlignment="Left" Margin="88,72,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnBereken" Content="Bereken" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Height="33" Width="198" Click="btnBereken_Click"/>
+        <Button x:Name="btnAfsluiten" Content="Afsluiten" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Height="33" Width="198" Click="btnAfsluiten_Click"/>
+
+    </Grid>
+</Window>
